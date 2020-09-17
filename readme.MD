@@ -7,6 +7,7 @@ Minimum Python version 3.7.3
 ## Setup
 1) Create and activate your virtual environment
 2) Install requirements with pip install -r requirements.txt
+3) Call main program via win_optimizer.py
 
 ## Summary
 Performs various tasks for optimizing Windows 10 operating systems, and also runs in combination
