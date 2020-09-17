@@ -3,6 +3,7 @@ win_optimizer
 
 ## Requirements
 Minimum Python version 3.7.3
+**Requires elevated privileges**
 
 ## Setup
 1) Create and activate your virtual environment
@@ -14,8 +15,6 @@ Performs various tasks for optimizing Windows 10 operating systems, and also run
 with ClamWin Free Antivirus for performing virus checks / sending alerts to a GMail account.
 
 When multiple options are selected; e.g., --auto, optimization options are run in parallel
-
-**Requires elevated privileges**
 
 ## Author
 Kyle McRae
