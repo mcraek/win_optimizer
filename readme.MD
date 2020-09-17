@@ -43,8 +43,9 @@ directory as the executable with the following syntax for the filename: system_n
 
 
 -dc, --discclean {true, false}, default = false: Imports a registry key that was created using cleanmgr /sageset:64
-to specify which clean options should be selected when Disk Cleanup
-is run using option 64
+to specify which clean options should be selected when Disk Cleanup is run using option 64
+
+cleanmgr.exe is then called to perform the cleanup operation
 
 The imported key is an export of HKLM\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer\VolumeCaches
 where CleanMgr parameters for option 64 are specified.
@@ -56,7 +57,7 @@ Old Chkdsk files
 Setup Log Files
 Windows Update Cleanup
 Windows Defender Antivirus (non-critical files)
-Windows updgrade log files
+Windows upgrade log files
 Diagnostic data viewer database files
 Downloaded Program Files (ActiveX / Java temp files)
 Temporary Internet Files
@@ -114,7 +115,6 @@ other tasks at the time
 
 
 -v, --verbose {true, false}, default = false: Displays program progress to console while running
-
 
 -vc, --viruscheck {true, false}, default = false: Scans specified directories using ClamWin Free
 Antivirus. If ClamWin is not installed on the system, it will be installed via Chocolatey.
