@@ -1,26 +1,26 @@
-﻿## Program Name 
+﻿# Program Name 
 win_optimizer
 
-## Requirements
+# Requirements
 Minimum Python version 3.7.3
 
 **Requires elevated privileges**
 
-## Setup
+# Setup
 1) Create and activate your virtual environment
 2) Install requirements with pip install -r requirements.txt
 3) Call main program via win_optimizer.py
 
-## Summary
+# Summary
 Performs various tasks for optimizing Windows 10 operating systems, and also runs in combination
 with ClamWin Free Antivirus for performing virus checks / sending alerts to a GMail account.
 
 When multiple options are selected; e.g., --auto, optimization options are run in parallel
 
-## Author
+# Author
 Kyle McRae
 
-## Arguments
+# Arguments
 
 -a, --auto {true, false}, default = false: Runs all optimization options. Multiple options run at once. Recommended only if running unattended as console output can be difficult to make sense of.
 
@@ -138,12 +138,12 @@ C:\Windows C:\Users D: E:\Files
     security settings, and enable "Less secure app access" to allow the program to
     authenticate to the account and send mail through it
 
-## Examples:
+# Examples:
 
 python .\win_optimizer.py -a True - Runs all options
 
 python .\win_optimizer.py -dc True -v True - Runs disk check option with verbose output
     
-## Meta
+# Meta
 
 Distributed under the GNU Lesser General Public License (LGPL 3)+. See LICENSE file for more information.
