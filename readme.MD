@@ -3,6 +3,7 @@ win_optimizer
 
 ## Requirements
 Minimum Python version 3.7.3
+
 **Requires elevated privileges**
 
 ## Setup
