@@ -35,7 +35,7 @@ feature packs
 
 The following provisioned apps are not removed through this process:
 
-Calculator, Calendar, Camera, Mail, Weather, News, StickyNotes, Store, Camera
+Calculator, Calendar, Camera, Mail, Weather, News, StickyNotes, Store
 
 
 -d, --debug {true, false}, default = false: Outputs program progress to a log file in the same
